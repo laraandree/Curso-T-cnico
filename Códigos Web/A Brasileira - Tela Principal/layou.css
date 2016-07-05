@@ -1,0 +1,153 @@
+@charset "utf-8"
+*{margin:0 auto; padding:0px; }
+body {border: 10px double;}
+
+/*Cabeçalho do Site*/
+	#topo {
+		background:#255ec5;
+		height:140px;
+		width:960px;
+		border:1px solid;
+	}
+	
+	#redesocial {
+		height:50px;
+		width:108px;
+		border: 1px solid;
+		margin-left: 35px;
+		margin-top: 80px;
+	}
+	
+	#supmenu{
+		width:406px;
+		height:80px;
+		border:1px solid;
+		margin-left: 300px;
+		margin-top: -130px;
+		font:80% Tahoma;
+
+	}
+	#supmenu ul {
+		list-style: none;
+	}
+	
+	#supmenu a{
+		text-decoration:none;
+		float:left;
+	}
+	
+	#supmenu li {
+		float:left;
+		
+	}
+	
+	#caixa_pesquisa{
+		height:36px;
+		width:248px;
+		border: 1px solid;
+		margin-left: 400px;
+		margin-top: 10px;
+	
+	}
+	
+	#login{
+		height:40px;
+		width:82px;
+		border: 1px solid;
+		margin-left: 850px;
+		margin-top: -100px;
+		font:80% Tahoma;	
+	}
+	
+	
+	/**/
+	
+	#logo{
+		height:192px;
+		width:431px;
+		border: 1px solid;
+		margin-left: 300px;
+		margin-top: 40px;
+	}
+	
+	#sacola{
+		height:84px;
+		width:142px;
+		border: 1px solid;
+		margin-left: 800px;
+		margin-top: -200px;
+	}
+	
+	#menu {
+		height:78px;
+		width:888px;
+		border: 1px solid;
+		margin-left:35px;
+		margin-top: 115px;
+	}
+	
+/*Section Extensão*/
+
+	#slide {
+		height:453px;
+		width:712px;
+		border: 1px solid;
+		margin-left:35px;
+		margin-top: 20px;
+		padding:3px;
+	}
+	#fotosslide {
+		height:446px;
+		width:645px;
+		border: 2px solid;
+		margin-left:40px;
+		margin-top: 25px;
+	}
+
+	#faixa {
+		height:80px;
+		width:645px;
+		border: 1px solid;
+		margin-left:35px;
+		margin-top: -150px;
+	}
+	
+	#colunista{
+		height:330px;
+		width:406px;
+		border: 1px solid;
+		margin-left:35px;
+		margin-top: 80px;
+	}
+	
+	#foto_colunista{
+		height:288px;
+		width:166px;
+		margin-left:25px;
+		margin-top: 30px;
+	}
+	
+	#assunto{
+		height:288px;
+		width:200px;
+		border: 1px dotted;
+		margin-left: 196px;
+		margin-top: -290px;
+		font:80% Tahoma;	
+	}
+	
+	#cotidiano{
+		width:422px;
+		height:322px;		
+		margin-left:500px;
+		border: 1px solid;
+		margin-top: -330px;
+	}
+	
+	#banner {
+		width:888px;
+		height:243px;		
+		margin-left:35px;
+		margin-top:30px;}
+	
+	#footer rodape{}

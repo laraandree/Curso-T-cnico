@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+*{margin:0 auto; padding:0px; }
+body {}
+#inteiro{
+width:960px;
+height:1860px;
+margin: 0 auto;
+
+}
+/*Cabeçalho do Site*/
+	#topo { /*toda a parte azul*/
+		background:#255ec5;
+		height:138px;
+		width:960px;
+		border:1px #255ec5 solid;
+	}
+	
+	#redesocial { /*icones de rede social*/
+		height:50px;
+		width:108px;
+		 
+		margin-left: 35px;
+		margin-top: 80px;
+	}
+	
+	#supmenu{ /*Menu superior*/
+		width:466px;
+		height:80px;
+		border:0px solid;
+		margin-left: 250px;
+		margin-top: -130px;
+	}
+	#supmenu ul  li{
+		float:left;
+		display: inline;
+		list-style: none;
+		font:80% Tahoma;
+		color: #fff
+	}
+	.texto {font-size:20px; font-family:Tahoma; color: #000;}
+	.linha {	padding: 25px; height:10px; margin-top:20; border-right: 1px solid;}
+	
+	#supmenu a{
+		text-decoration:none;
+		float:left;
+	}
+	
+	#caixa_pesquisa{ /*USAR placeholder="encontre sua moda"*/
+		height:36px;
+		width:248px;
+		
+		margin-left: 370px;
+		margin-top: -5px;
+	}
+	
+	.pesquisa {width:auto; height:auto;}
+	#login{
+		height:40px;
+		width:82px;
+		text-align:center;
+		margin-left: 850px;
+		margin-top: -100px;
+		font:80% Tahoma;	
+		background: green;
+	}
+	
+	
+	/*div mediano*/
+#mediano {
+width:960px;
+height:215px;
+}
+	#logo{
+		height:192px;
+		width:431px;
+		margin-left: 280px;
+		margin-top: 10px;
+	}
+	
+	#sacola{
+		height:84px;
+		width:142px;
+		
+		margin-left: 800px;
+		margin-top: -195px;
+	}
+	
+	#menu {
+		height:80px;
+		width:888px;
+		margin:0 auto;
+		background: yellow;
+
+	}
+	/*	 #menu ul {		
+			float:left;
+			list-style: none;};
+		#menu ul li {
+			height:80px;
+			width:170px;
+			border-right: 1 px solid;
+			background:blue;
+		};
+	*/
+/*Section Extensão*/
+
+	#slide {
+		height:446px;
+		width:732px;
+		margin-left:35px;
+		margin-top: 20px;
+	}
+	#fotoslide {
+		width:645px;
+		height:446px;
+		float:left;
+		position:relative;
+		z-index:20;
+
+	}
+
+	#diario ul {
+		float:left;
+		width:40px;
+		height:400px;
+		list-style:none;
+		margin-top:50px;
+		
+	} 
+	#diario ul li {width:36px;  height:98px; background:yellow;  border-left: 7px solid;}
+	#diario ul li a {width:36px;  height:98px; background:yellow; border-left: 7px solid;}
+	#diario ul li a:hover {width:36px;  height:98px; background:yellow; border: 7px solid;}
+	
+	.faixa {
+		background: white;
+		opacity:0.8;
+		filter:alpha(opacity=72); /*Para versões anteriores do IE8*/
+		height:80px;
+		border: 1px solid;
+		border-left:20px solid;
+		margin-left:0px;
+		margin-top: -150px;
+	}
+	.textofaixa {
+		font-family: Arial;
+		font-size: 16pt;
+		margin-left:20px;
+		margin-top:30px;
+	}
+	
+	#area { /*Area da extensão onde vai COLUNISTA e COTIDIANO*/
+	width:928px;
+	height: 390px;
+	}
+	
+	.titulo {
+		font-family: Arial;
+		font-size: 10pt;
+		margin-left:185px;	
+		margin-top:-20px;
+	}
+	.clip {
+		width:53px;
+		height:99px;
+		margin-left:45px; 
+		position:relative;
+		z-index:1;
+	}
+	#colunista{
+		height:330px;
+		width:406px;
+		border: 3px solid #37e0f9;
+		margin-left:35px;
+		margin-top:-67px;
+		float:left;
+	}
+	
+	#foto_colunista{
+		height:288px;
+		width:166px;
+		margin-left:25px;
+		margin-top: 30px;
+	}
+	
+	#assunto{
+		height:288px;
+		width:200px;
+		margin-left: 196px;
+		margin-top: -290px;
+		font:80% Tahoma;	
+	}
+	
+	#cotidiano{
+		width:422px;
+		height:330px;		
+		margin-top:-67px;
+		border: 3px solid #37e0f9;
+		float:right;
+	}
+	
+	#banner {
+		width:886px;
+		height:241px;	
+		border:3px solid #37e0f9;
+		margin-left:35px;
+	}
+	
+	#rodape {
+		width:956px;
+		height:193px;		
+		border-left:1px solid blue;
+		border-right:1px solid blue;
+	}
+	.barraazul{
+		width:960px;
+		height:21px;
+		background:blue;
+	}
+	.barraamarela{
+		width:960px;
+		height:21px;
+		background:yellow;
+	}
+	#links {
+		width:160px;
+		height:191px;
+		float:left;
+	}
+		#links p {margin-left:35px;}
+		#links ul {list-style:none;}
+		#links ul li {}
+	#pagamento {
+		width:264px;
+		height:191px;
+		margin-left:264px;
+		float:left;
+	}
+	
+	.cartao {
+		width:59px;
+		height:57px;
+		float:left;
+		padding:5px
+	}
+	.cartaod {
+		width:59px;
+		height:57px;
+		float:left;
+		padding:5px;
+		margin-left:20px;
+	}
+	#cadeado {
+		width:177px;
+		height:166px;
+		float:right;
+		margin-top:20px;
+		
+	}

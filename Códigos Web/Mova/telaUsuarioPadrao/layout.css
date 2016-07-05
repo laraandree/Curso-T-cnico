@@ -1,0 +1,943 @@
+﻿*{margin:0;	padding: 0;}
+		
+html, body{	height:100%; min-height:; }
+body{overflow-x:hidden; border: 0px;}
+.parallax{
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1920px;
+	min-height: 100%;
+	background-position: relative;
+	background-attachment: relative;
+	background-repeat: no-repeat;
+}
+
+.parallax article {
+  width: 70%;
+  text-align: center;
+  margin:0 auto;
+  padding:20% 0 0;
+}
+
+nav#navigation {
+    width: 100%;
+	background-color:#0f0;
+	text-align:center;
+	float: left;
+	z-index:110;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 10);
+	-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 10);
+	-webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 10);
+}
+
+	
+	 
+	nav#navigation ul li{ 
+	  display:inline-block;
+	}
+
+	nav#navigation ul li a {
+		display: block;
+		padding: 15px;
+		padding-top: 20px;
+		color: #FFF;
+		text-decoration:none;
+		font: bold 12px Arial;
+		/*
+		width:100%;
+		height:20px;
+		line-height:10px;
+		
+		background:transparent;
+		
+		
+		text-align:center;
+		padding:25px;
+		margin:0px 0 0 0px;
+		border-radius:0;*/
+	}
+	nav#navigation ul li a:hover {
+		display: block;
+		text-decoration:none;
+		color:#;
+		text-align:center;
+		margin: 0px 0 0 0px;
+		border-radius: 0;
+		
+	}
+
+	nav#navigation.fixed {
+		position: fixed;
+		width:100%;
+		background-color: #000;
+		height: 50px;
+		box-shadow: 1px 2px 6px rgba(0, 0, 0, 10);
+		-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 10);
+		-webkit-box-shadow: 1px 2px 6px rgba(0, 0, 0, 10);
+	   margin-top:-65px;
+	}
+#logo-menu {
+background-color: #;
+height: 50px;
+float: left;
+
+}
+
+nav#navigation ul.fixed {
+    width:700px;
+	height: 50px;
+	margin: auto;
+    background-color: #000;
+  
+}
+
+nav#navigation ul.unfixed {
+    position: absolut;
+    margin:0 auto;
+	
+    
+}
+.efeitofonte{font-family: 'Elsie', cursive;	color:#FFF;	text-shadow:1px 1px 3px #0f0;}
+#container_tela_de_apresentacao {
+	background: url(bgImage2.jpg);
+}
+
+#conteudo-inicio{
+background-color: #;
+width: 800px;
+height: 400px;
+margin: auto;
+padding: 150px 0 0 0;
+}
+
+
+#login{
+background-color: ;
+width: 500px;
+height: 140px;
+border-radius: 1em;
+padding: 10px 0 0 0;
+}
+
+#input-login{
+background-color: #fff;
+width: 200px;
+height: 20px;
+border-radius: 1em;
+padding: 10px 10px 10px 10px;
+margin: auto;
+}
+
+#input-senha-inicio{
+background-color: #fff;
+width: 200px;
+height: 20px;
+border-radius: 1em;
+padding: 10px 10px 10px 10px;
+margin-left: 141px;
+margin-top: 5px;
+}
+
+.botao-cadastrar-inicio{
+background-color:  #fff; 
+border: 0px;
+border-radius: 1em;
+font-family: impact;
+color: #15aaca; 
+width: 220px;
+height: 40px;
+margin-top: 5px;
+margin-left: 141px;
+float: left;
+}
+
+
+#div-redes-sociais-inicio{
+background-color: #;
+width: 138px;
+height: 185px;
+float: right;
+margin-top: -250px;
+
+}
+#div-redes-sociais-inicio a{
+text-decoration: none;
+color: #fff;
+}
+
+.facebook-inicio{
+width: 65%;
+height: 25px;
+background-color: #15aaca; 
+font-family: impact;
+padding: 5px 0px 5px 20px;
+margin-top: 20px;
+margin-left: 10px;
+}
+.f-facebook-inicio{
+width: 35px;
+padding: 1px 0 0 0;
+height: 33px;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+background-color: #fff;
+text-align: center;
+font-family: Berlin Sans FB Demi;
+font-size: 25px;
+color: #15aaca;
+float: left;
+}
+
+.twitter-inicio{
+width: 65%;
+height: 25px;
+background-color: #15aaca; 
+font-family: impact;
+padding: 5px 0px 5px 20px;
+margin-top: 30px;
+margin-left: 10px;
+}
+.t-twitter-inicio{
+width: 35px;
+height: 33px;
+background-image: url("imagens/twitter.png");
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+background-color: #fff;
+float: left;
+margin-top: 10px;
+}
+.instagram-inicio{
+width: 65%;
+height: 25px;
+background-color: #15aaca; 
+font-family: impact;
+padding: 5px 0px 5px 20px;
+margin-top: 30px;
+margin-left: 10px;
+}
+.i-instagram-inicio{
+width: 35px;
+height: 33px;
+background-image: url("imagens/instagram.png");
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+background-color: #fff;
+float: left;
+margin-top: 10px;
+}
+
+#container_primario{
+	background-image: url('balada-cristao.png');
+	background-repeat: no-repeat;
+}
+#evento-conteudo-layout{
+	background-color: #;
+	height: 330px;
+	width: 700px;
+	margin: auto;
+	padding: 250px 0 0 0;
+}
+.data-evento{
+background-color: #15aaca; 
+height: 434px; 
+width: 141px; 
+font-family: impact; 
+font-size: 25px;
+float: left;
+margin-top: -120px;
+padding: 10px 0 0 10px;
+}	
+.data-evento h1{
+float: left;
+font-family: impact; 
+font-size: 100px;
+color: #fff;
+margin-top: -140px;
+}
+
+.data-evento p{color: #fff;}
+
+.informacoes-evento {
+font-family: impact;
+background-color: ;
+width: 350px;
+height: 350px;
+float: left;
+margin-left: 0px;
+margin-top: -120px;
+padding: 10px 0 0 10px;
+text-align: left;
+}
+
+.informacoes-evento h1 {
+font-family: impact;
+color: #fff;
+font-size: 60px;
+float: left;
+}
+
+.informacoes-evento-interior{
+background-color: #;
+width: 350px;
+height: 150px;
+float: left;
+margin-left: 0px;
+margin-top: 0px;
+text-align: left;
+}
+.informacoes-evento-interior  p{color: #fff; font-size: 18px; text-align: left; font-family: Tahoma, Regular;}
+.informacoes-evento-interior  a{color: #fff; font-size: 18px; text-align: left; font-family: Tahoma, Regular;}
+.informacoes-evento-interior  h2{color: #fff; font-size: 36px; font-family: Tahoma, Regular;}
+
+.menu-presenca{margin-top: 150px; margin-left: -350px;float: left; font-size: 14px; font-family: Tahoma; list-style:none; border:1px solid #c0c0c0; float:left; background-color: #fff; }
+
+.menu-presenca li{position:relative; float:left; border-right:2px solid #c0c0c0; background-color: #fff;}
+
+.menu-presenca li a{color:#333; text-decoration:none; padding:5px 5px; display:block;}
+
+.menu-presenca li a:hover{background:#15aaca; color:#fff; -moz-box-shadow:0 3px 10px 0 #CCC; -webkit-box-shadow:0 3px 10px 0 #ccc; text-shadow:0px 0px 5px #fff; }
+
+.menu-presenca li   ul{position:absolute; top:25px; left:0; background-color:#fff; display:none; }
+
+.menu-presenca li:hover ul, .menu li.over ul{display:block;}
+
+.menu-presenca li ul li{border:1px solid #c0c0c0; display:block; width:130px;}
+	
+
+#eventos{
+margin-top: -10px;
+}
+
+
+
+#galeria{
+width: 100%;
+float: left;
+margin-top: 0px;
+background-color: #000;
+height: 700px;
+padding: 50px 0 0 0;
+}
+	
+
+
+#cadastro_usuario {
+width: 100%;
+height: 300px;
+background-image: url('imagens/fundo-rodape.png');
+background-repeat: repeat;
+float: left;
+background-color: #000;
+margin-top: -10px;
+}
+#tudo-cadastro{
+background-color: #;
+width: 600px;
+height: 500px;
+margin: auto;
+padding: 100px 0 0 0;
+}
+
+.perfil-mova{
+margin-top: 0px;
+padding: 50px 0 100px 0;
+text-align: center;
+font-family: Berlin Sans FB Demi;
+font-size: 36px;
+color: #fff;
+}
+
+#cadastro_usuario input{
+border: 0px;
+}
+
+#cadastro_usuario form{
+		font-family: tahoma, sans-serif;
+		font-size: 19px;
+		text-align: left;
+}
+
+#nome{
+background-color: #;
+width: 70px;
+height: 30px;
+float: left;
+margin-top: 10px;
+
+}
+
+#input-nome{
+float: left;
+background-color: #fff;
+border-radius: 1em;
+padding: 10px 10px 10px 10px;
+}
+
+#input-sobrenome{
+float: left;
+background-color: #fff;
+padding: 10px 10px 10px 10px;
+border-radius: 1em;
+margin-left: -5px;
+}
+#sobrenome{
+background-color: #;
+width: 110px;
+height: 30px;
+float: left;
+margin-top: 10px;
+margin-left: 10px;
+}
+#input-email{
+float: left;
+background-color: #fff;
+padding: 10px 10px 10px 10px;
+border-radius: 1em;
+margin-top: 60px;
+margin-left: -455px;
+}
+#email{
+margin-top: 75px;
+background-color: ;
+width: 70px;
+height: 30px;
+margin-left: -525px;
+float: left;
+background-color: #;
+}
+#input-senha{
+float: left;
+background-color: #fff;
+padding: 10px 10px 10px 10px;
+border-radius: 1em;
+margin-top: 123px;
+margin-left: -456px;
+}
+
+#senha{
+background-color: #;
+width: 70px;
+height: 30px;
+float: left;
+margin-top: 132px;
+margin-left: -525px;
+}
+#input-confirmar{
+float: left;
+background-color: #fff;
+padding: 10px 10px 10px 10px;
+border-radius: 1em;
+margin-top: 180px;
+margin-left: -375px;
+}
+
+#confirmar{
+background-color: #;
+width: 180px;
+height: 30px;
+float: left;
+margin-top: 192px;
+margin-left: -527px;
+}
+
+#aniversario{
+background-color: #;
+width: 250px;
+height: 30px;
+float: left;
+margin-top: 260px;
+margin-left: -527px;
+}
+
+#input-data{
+float: left;
+width: 175px;
+height: 30px;
+margin-top: 260px;
+margin-left: -350px;
+}
+.botao-cadastrar{
+background-color:  #fff; 
+border: 0px;
+border-radius: 1em;
+font-family: impact;
+color: #15aaca; 
+width: 70px;
+height: 30px;
+margin-top: 215px;
+margin-left: 70px;
+}
+
+#mensagem{
+width: 100%;
+height: 250px;
+background-image: url('imagens/fundo-rodape.png');
+background-repeat: repeat;
+background-position: left;
+float: left;
+background-color: #000;
+
+}
+
+.p{
+background-color: #;
+margin-top: 60px;
+margin-left: 10px;
+height: 30px;
+width: 80px;
+color: #fff;
+padding: px 0px 0px 0px;
+font-family: Tw Cen MT Condensed;
+font-size: 24px;
+}
+
+#mensagem-conteudo{
+background-color: #;
+width: 700px;
+height: 550px;
+margin: auto;
+padding: 10px;
+}
+
+.deixe-sua-mensagem{
+font-family: Berlin Sans FB Demi;
+font-size: 36px;
+color: #fff;
+background-color: #;
+padding: 150px 0 0 0;
+}
+
+#mensagem-informacoes{
+font-family: Tw Cen MT Condensed;
+font-size: 18px;
+color: #fff;
+background-color: #;
+padding: 20px 0 0px 0;
+height: 70px;
+}
+
+#caixa-mensagem{
+background-color: #;
+float: left;
+}
+#mensagem-email{
+background-color: #;
+width: 70px;
+height: 30px;
+font-family: Tw Cen MT Condensed;
+font-size: 24px;
+color: #fff;
+float: left;
+padding: 8px 0 0 10px;
+}
+
+#mensagem-input-email{
+float: left;
+background-color: #fff;
+padding: 10px 10px 10px 10px;
+border-radius: 1em;
+margin-top: 0px;
+}
+
+#mensagem-input-email input{
+border: 0px;
+}
+
+#portifolio{
+margin-top: 20px;
+background-color: #fff;
+width: 500px;
+height: 150px;
+float: left;
+padding: 10px 10px 10px 10px;
+border-radius: 1em;
+}
+#portifolio textarea{
+height: 150px;
+width: 500px;
+font-family: Tahoma;
+font-size: 12px;
+border: 0px;
+}
+
+.botao-mensagem{
+background-color:  #fff; 
+border: 0px;
+border-radius: 1em;
+font-family: impact;
+color: #15aaca; 
+width: 70px;
+height: 30px;
+margin-top: 215px;
+margin-left: 70px;
+float: left;
+} 
+
+
+
+
+#rodape{
+width: 100%;
+height: 250px;
+background-image: url('imagens/fundo-rodape.png');
+background-repeat: repeat;
+background-position: left;
+float: left;
+background-color: #000;
+}
+
+#rodape-conteudo{
+background-color: #;
+padding: 130px 0 200px 0;
+width: 700px;
+height: 250px;
+margin: auto;
+
+}
+
+#logo-rodape{
+margin: auto;
+width: 320px;
+height: 100px;
+background-color: #;
+} 
+
+#pesquisa{
+background-color: #;
+width: 364px;
+height: 70px;
+margin-top: 40px;
+float: left;
+margin-left: -30px;
+}
+
+.lupa-pesquisa{
+width: 70px;
+padding: 0px 0 0 0;
+height: 68px;
+background-image: url("imagens/lupa.png");
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+background-color: #fff;
+float: left;
+}
+
+#input-busca{
+width: 175px;
+height: 20px;
+background-color: #15aaca; 
+border-radius: 1em;
+padding: 9px 0px 10px 40px;
+border:5px #fff solid; 
+margin-top: 10px;
+margin-left: 35px;
+}
+
+#pesquisa select{
+background-color: #15aaca; 
+border: 5px #fff solid;
+border-radius: 1em;
+font-family: impact;
+color: #fff;
+width: 80px;
+height: 48px;
+float: left;
+margin-top: -47px;
+margin-left: 195px;
+}
+
+#informacoes{
+background-color: #;
+width: 637px;
+height: 126px;
+float: left;
+margin-top: 50px;
+}
+
+.informacoes-mova{
+background-color: #;
+width: 110px;
+height: 126px;
+float: left;
+}
+
+.informacoes-mova a{
+color: #fff;
+text-decoration: none;
+font-family: Tw Cen MT Condensed;
+size: 10px;
+}
+
+.informacoes-mova p{
+color: #fff;
+text-decoration: none;
+font-family: Berlin Sans FB Demi;
+font-size: 24px;
+}
+.informacoes-contato{
+background-color: #;
+width: 160px;
+height: 126px;
+float: left;
+margin-left: 20px;
+}
+
+.informacoes-contato a{
+color: #fff;
+text-decoration: none;
+font-family: Tw Cen MT Condensed;
+size: 10px;
+}
+
+.informacoes-contato p{
+color: #fff;
+text-decoration: none;
+font-family: Berlin Sans FB Demi;
+font-size: 24px;
+}
+.informacoes-servicos{
+background-color: #;
+width: 110px;
+height: 126px;
+float: left;
+margin-left: 30px;
+}
+
+.informacoes-servicos a{
+color: #fff;
+text-decoration: none;
+font-family: Tw Cen MT Condensed;
+size: 10px;
+}
+
+.informacoes-servicos p{
+color: #fff;
+text-decoration: none;
+font-family: Berlin Sans FB Demi;
+font-size: 24px;
+}
+.informacoes-empresa{
+background-color: #;
+width: 110px;
+height: 126px;
+float: left;
+margin-left: 30px;
+}
+
+.informacoes-empresa a{
+color: #fff;
+text-decoration: none;
+font-family: Tw Cen MT Condensed;
+size: 10px;
+}
+
+.informacoes-empresa p{
+color: #fff;
+text-decoration: none;
+font-family: Berlin Sans FB Demi;
+font-size: 24px;
+}
+
+#div-redes-sociais{
+background-color: #;
+width: 138px;
+height: 185px;
+float: left;
+margin-left: 600px;
+margin-top: -180px;
+}
+#div-redes-sociais a{
+text-decoration: none;
+color: #fff;
+}
+
+.facebook{
+width: 65%;
+height: 25px;
+background-color: #15aaca; 
+font-family: impact;
+padding: 5px 0px 5px 20px;
+margin-top: 20px;
+margin-left: 10px;
+}
+.f-facebook{
+width: 35px;
+padding: 1px 0 0 0;
+height: 33px;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+background-color: #fff;
+text-align: center;
+font-family: Berlin Sans FB Demi;
+font-size: 25px;
+color: #15aaca;
+float: left;
+}
+
+.twitter{
+width: 65%;
+height: 25px;
+background-color: #15aaca; 
+font-family: impact;
+padding: 5px 0px 5px 20px;
+margin-top: 30px;
+margin-left: 10px;
+}
+.t-twitter{
+width: 35px;
+height: 33px;
+background-image: url("imagens/twitter.png");
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+background-color: #fff;
+float: left;
+margin-top: 10px;
+}
+.instagram{
+width: 65%;
+height: 25px;
+background-color: #15aaca; 
+font-family: impact;
+padding: 5px 0px 5px 20px;
+margin-top: 30px;
+margin-left: 10px;
+}
+.i-instagram{
+width: 35px;
+height: 33px;
+background-image: url("imagens/instagram.png");
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 100px;
+-moz-border-radius: 100px;
+-webkit-border-radius: 100px;
+background-color: #fff;
+float: left;
+margin-top: 10px;
+}
+
+#meuPerfil{
+	
+	width: 980px;
+	height: 500px;
+}
+#topoPerfil{
+
+	width: 100%;
+	height: 200px;
+	z-index:100;
+}
+	#topoPerfil img{
+		border: 2px solid #eee;
+		float:left;
+
+	}
+	#informacoes{
+		font-family: "Comic Sans MS";
+		float:left;
+		margin-top:-0px;
+
+	}
+	#informacoes ul li{
+		padding:5px
+	}
+	#informacoes h2{
+		padding-bottom:20px
+	}
+#restoPerfil{
+	width:100%;
+	border-top:8px solid #15aaca;
+	margin:0 auto;
+	margin-top:5px;
+}
+.evento{
+	margin-top:20px;
+	width:270px;
+	height:290px;
+	border: 2px solid #ee9;
+	float:left;
+	margin-left:20px;
+	margin-bottom:50px;
+}
+.ir{
+	background:#7FFF00;
+
+
+}
+.recusar{
+	background:#CD0000;
+
+}
+.talvez{
+	background:#15aaca;
+
+}
+#inputs{
+	margin:0 auto;
+	margin-left:50px;
+}
+#inputsConf{
+	margin:0 auto;
+	margin-left:90px;
+}
+.evento input[type="button"]{
+	width:80px;
+	height:30px;
+	opacity:0.9;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin-top:20px;
+	
+	float: left;
+	font-family: "Century Gothic";
+	font-size: 15px;
+}
+#menu{
+	border:2px groove green;
+}
+#menu ul {
+	list-style: none;
+	font-family: "Comic Sans MS";
+	width:300px;
+	float:right;
+	text-align:right;
+
+}
+#menu ul li a{
+	display: block;
+	text-decoration:none;
+
+}
+#menu ul li a:hover{
+	display: block;
+	text-decoration:none;
+
+	border-right:5px solid #15aaca;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,89 @@
+body{
+  background: #68b8c4;
+  text-align: center;
+  padding: 2%;
+}
+
+button{
+  display: inline-block;
+  background: white;
+  border: 0;
+  margin: 0 0 2%;
+  font-family: 'Helvetica Neue';
+  font-weight: 300;
+  font-size: 18px;
+  padding: .5em 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 0 none;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p{
+  font-family: "Helvetica Neue", arial, sans-serif;
+  color: #333;
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 1em;
+}
+
+p:last-child{
+  margin-bottom: 0;
+}
+
+.container{
+  text-align: justify;
+  font-size: 0;
+ 
+}
+
+.container:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+.container .item,
+.container .gap{
+  display: inline-block;
+  width: 49%;
+}
+
+.container .mix{
+  text-align: ;
+  background: #03899c;
+  margin-bottom: 2%;
+  padding:;
+  vertical-align: top;
+  display: none;
+  margin-left: 0px;
+  -webkit-backface-visibility: hidden;
+}
+
+/* Flex box progressive enhancements: */
+
+.container{
+  display: -webkit-flex;
+  -webkit-flex-flow: row wrap;
+	-webkit-justify-content: space-between;
+  -webkit-align-content: flex-start;
+}
+
+@media all and (min-width: 420px){
+  .container .mix,
+  .container .gap{
+    width: 32%;
+  }
+}
+
+.container .mix img{
+background-position: center;
+width: 455px;
+height: 255px;
+padding: 5px px 5px 5px;
+}

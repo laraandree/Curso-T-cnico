@@ -1,0 +1,263 @@
+@charset "utf-8";
+* {margin: 0 auto;}
+/* Div da pagina inteira */
+#wrap{
+	min-width: 800px;
+	margin: 0 auto;
+	background: #ffff00;
+}
+	/**/
+	#topo {
+		width: 100%;
+		height: 37px;
+		background: blue;		
+	}	
+	/**/
+	#logo{
+		float:left;
+		margin-top:-23px;	
+	}
+	
+	/*Dentro do Topo - Menu_Superior*/
+	#menu_superior {
+		height: 25px;
+		color: white;
+		font-size: 8pt;
+		font-family: Arial;
+		background: blue;
+		float: right;
+		margin-right: 15px;
+
+	}
+		.menu_superior_bordalateral {
+			float:left;
+			border-right: 1px solid white; 
+			text-align: center;
+			padding-left:10px;
+			padding-right:10px;
+		}
+		.menu_superior_sembordalateral {
+			float:left; 
+			text-align: center;
+			margin-right: 11px;
+			padding-left: 10px;		
+		}
+		
+		#menu_superior p {margin-top:10px;}
+		#menu_superior input {margin-top:10px;}
+		
+	/*Menu Secundario*/
+	#menu_secundario {
+		width: 518px;
+		height: 40px;
+		background: blue;
+		margin-right: 15px;
+		margin-top: 44px;
+		color:white;
+		float: right;
+		font-size: 10pt;
+	}
+		#menu_secundario_img{
+			float:right;
+			margin-top: -35;
+			margin-right: 5px;
+		}
+		.menu_secundario_separador {
+			width: 30px;
+			height: 1px;
+			background: white;
+			float:left;
+			margin-top: 7px;
+			margin-left: 15px;
+		}
+		
+		#menu_secundario ul{
+			list-style: none;
+			padding: 15px;
+			margin-left: -20px;
+			margin-top: -3px;
+		}
+		#menu_secundario ul li{
+			float: left;
+			margin-left: 17px;
+		}
+		
+	/* Menu Lateral */	
+	#menu_lateral  {
+		font-size:11pt;
+		float:left;
+		margin-top: 150px;
+		color: blue;
+		margin-left: -270px;
+		list-style:none;
+	}
+
+		#menu_lateral  ul{
+			list-style:none;
+			height:200px;
+		}
+		#menu_lateral ul li{
+			padding-top:10px;
+			margin-bottom:10px;
+		}
+		
+		#menu_lateral  ul a {
+			color:0000ff;
+			text-decoration: none;
+		}
+		
+		#menu_lateral  ul a li:hover{
+			background: black;
+		}
+		
+		.imagem_menu{
+			float:left;
+			margin-top:-10px;
+			clear:both;
+		}
+.rodape {width: 100%; height: 50px; margin-top: 160px; background: blue; float: left;}
+/* Conteudo do Site */
+#conteudo {
+	width: 630px;
+	float: left;
+	margin-top: 80px;
+	margin-left: -35;
+}
+	.limpafloat{
+		clear: both;
+	}
+
+	/*Div dos Comentarios*/
+	#comentarios{
+		width: 262px;
+		height: 245px;
+		background: #e7e7e7;
+		border-left: 7px solid #858585;
+		padding: 8px;
+		float:left;
+	}
+		.comentario_comentarios {
+			width: 230px;
+			height: 32px;
+			font: Arial;
+			font-size: 10pt;
+			color: blue;
+			float: left;
+			border-bottom: 1px solid green;
+			margin-bottom: 8px;
+			margin-left: 7px;
+		}
+
+		#comentario_titulo {
+			width: 229px;
+			height: 22px;
+			font: Arial;
+			font-size: 10pt;
+			float: left;
+			border-bottom: 1px solid black;
+			margin-bottom: 15px;
+			margin-left: 7px;
+			
+		}
+			#comentario_titulo p{
+			padding: 0;
+			margin: 0;
+			font-size: 10pt;
+			float: left;
+			margin-left: -6px;
+			margin-top: 3px;
+			}
+			
+			#comentario_titulo img{
+			float: left;
+			margin-top: -7px;
+			margin-left: -10px;
+			}
+			
+			.comentario_data {
+				float: right;
+				margin-left: 30px;
+			}
+		#comentario_mais{
+			float: left;
+			font: Arial;
+			font-size: 11pt;
+			margin-left: 51px;
+			margin-top: 17px;
+		}
+			#comentario_mais p{
+				margin: 0;
+				font-size: 10pt;
+				float: left;
+			}
+		
+			#comentario_mais img{
+				float: left;
+				margin-top: -12px;
+			}
+				
+	/*div da caixa de Vendas Requeridas*/
+	#vendas_requeridas {
+		width: 322px;
+		height: 110px;
+		margin-left: 15px;
+		background: fefd59;
+		border-left: 7px solid blue;
+		font-size: 10pt;
+		float: left;
+	}
+		#vendas_requeridas_titulo {
+			float: left;
+		}
+		#vendas_requeridas_titulo  p {
+			float: float;
+			margin-left: 42px;
+			margin-top: -30px;
+		}
+		#vendas_requeridas_relatorio table {
+			float: left;
+			background: white;
+			font-size: 8pt;
+			width: 305px;
+			height: 35px;
+			margin-top: -5px;
+			margin-left: 9px;
+			border-collapse: collapse; /*Faz da borda dupla em simples*/
+		}
+		
+		#vendas_requeridas_relatorio table tr td {
+			border: 2px solid #000;
+		}
+		
+	/*div da caixa de Mensagem Geral*/
+	#broadcast_mensagem { 
+		width: 322px;
+		height: 135px;
+		border-left: 7px solid #858585;
+		background: #e7e7e7;
+		font-size: 10pt;
+		float: left;
+		margin-top: 15px;
+		margin-left: 15px;
+	}
+		#boadcast_mensagem_texto textarea { 
+			float: left;
+			height: 93px;
+			width: 231px;
+			margin-left: 9px;
+			margin-top: 8px;
+			resize: none; /*Desabilita redimencionar o textarea*/
+		}
+		#broadcast_mensagem_opcoes{ /**/
+			float: left;
+			margin-left: 4px;
+		}
+		#broadcast_mensagem_titulo {
+			margin-left: 9px;
+			float: left;
+		}
+		#broadcast_mensagem_input {
+			float: left;
+			margin-left: 7px;
+			margin-top: 38px;
+		}
