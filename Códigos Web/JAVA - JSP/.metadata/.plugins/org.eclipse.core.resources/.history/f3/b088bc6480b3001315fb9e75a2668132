@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form action="">
+		Texto 1: <input name="texto1"><br>
+		Texto 2: <input name="texto2"><br>
+		
+		<input type="submit" value="Enviar">
+	</form>
+	
+</body>
+</html>

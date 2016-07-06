@@ -1,0 +1,38 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<%
+	String nome;
+	int peso;
+	double altura;
+	String resultado;
+	
+	nome = request.getParameter("nome");
+	peso = Integer.parseInt(request.getParameter("peso"));
+	altura = Double.parseDouble(request.getParameter("altura"));
+	
+	double imc = peso / (altura * altura);
+	
+	if (imc < 18.5) { resultado = "Você está abaixo do peso ideal";}
+	else if (imc > 18.5 && imc < 24.9) { resultado = "Parabéns você está em seu peso normal";}
+	else if (imc > 25.0 && imc < 29.9) { resultado = "Você está acima de seu peso (sobrepeso)";}
+	else if (imc > 30.0 && imc < 34.9) { resultado = "Obesidade grau I";}
+	else if (imc > 35.0 && imc < 39.9) { resultado = "Obesidade grau II";}
+	else if (imc >= 40.0){ resultado = "Obesidade grau III";}
+%>
+
+Resultado <br/>
+Nome: <%=nome%><br/>
+Peso: <%=peso %><br/>
+Altura: <%=altura %><br/>
+IMC: <%=imc %><br/>
+</body>
+</html>

@@ -1,0 +1,10 @@
+package prova.progweb;
+
+public class Paciente {
+
+	private String nome;
+	private int idade;
+	private int peso;
+	private double altura;
+	
+}

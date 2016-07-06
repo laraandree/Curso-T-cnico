@@ -1,0 +1,6 @@
+package Filhos;
+import Pais.Pai;
+
+public class Filho1 {
+	Pais.Pai atributospai = new Pais.Pai();
+}

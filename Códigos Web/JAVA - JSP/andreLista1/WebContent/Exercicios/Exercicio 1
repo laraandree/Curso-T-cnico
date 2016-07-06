@@ -1,0 +1,4 @@
+1. O que precisamos para Desenvolver em JavaEE para Web?
+	Precisa-se de um ambiente de execução (JRE) que é formada pela máquina virtual (JMV) e por um conjunto de bibliocas que auxiliam a JRE. E também precisa-se da JAVAC que é o compilador que pega o codio fonte e executa pelo JVM.
+	Tudo isso num kit de desenvolvimento, o JDK.
+	

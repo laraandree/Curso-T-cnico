@@ -1,0 +1,6 @@
+package Pais;
+
+public class Pai {
+	String nome;
+	int idade;
+}

@@ -1,0 +1,11 @@
+INDEX VERSION 1.122+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3720592135.index
+3518370734.index
+1463385341.index
+1169700226.index
+1744036256.index
+388467576.index
+196497643.index
+3243688919.index
+714413423.index
+3674858908.index

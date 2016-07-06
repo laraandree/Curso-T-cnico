@@ -1,0 +1,6 @@
+package Filhos;
+import Pais.Pai;
+
+public class Filho1 {
+	
+}

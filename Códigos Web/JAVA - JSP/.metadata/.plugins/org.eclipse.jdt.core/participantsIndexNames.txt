@@ -1,0 +1,23 @@
+INDEX VERSION 1.126
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1661116189.index
+\primeiro_projeto\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3251030813.index
+\getParameter_andre\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\709706895.index
+\getParameter_andre\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2259549067.index
+\Lista1\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2787605515.index
+\getParameter_andre\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\681930280.index
+\getParameter_andre\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4104041064.index
+\andreLara_prova\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1266460678.index
+\andreLara_prova\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3053298984.index
+\andreLara_introJava\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\700116821.index
+\segundo_exerc_imparPar\src
+E:\Informática para Internet - 3° Semestre\Programação Web 2\JAVA\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\279442682.index
+\andreLista1\src
